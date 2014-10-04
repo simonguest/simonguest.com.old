@@ -1,0 +1,27 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "simonguest.com",
+    "owner": "Simon Guest",
+    "description": "The only person allowed to login as 'guest'"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "./plugins/dateindex.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 10
+  }
+}
