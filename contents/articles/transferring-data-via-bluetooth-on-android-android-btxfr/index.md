@@ -7,6 +7,8 @@ template: article.jade
 
 Recently, I've been working on some code to transfer images and other data between Android devices using Bluetooth.  While I could have used the Basic Imaging Profile (BIP) of the Bluetooth 4.0 specification, this particular application has specific requirements that would have been difficult to implement using BIP.  To overcome this, I ended up building an application that instead relies on the Serial Port Profile (SPP), exchanging data using the RFCOMM protocol.  
 
+<span class="more"></span>
+
 The SPP implementation on Android is nice, but only offers the fundamentals of an InputStream and OutputStream.  While this provides the basics of sending and receiving bytes, it doesn't handle data integrity, progress updates, threading, or any of the other requirements often needed when sending data between two devices.
 
 The result from my recent work is an Android library called [android-btxfr](http://github.com/simonguest/android-btxfr), which I'm happy to share through my Github repository.  android-btxfr is lightweight library designed to send and receive any type of data between Android (API 15 and higher).  It can be used to exchange text, files, photos, videos, sounds, and literally any other type of binary data.  The library supports anything that can be put into a byte stream and includes digest checking to ensure data integrity.

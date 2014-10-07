@@ -7,6 +7,8 @@ template: article.jade
 
 The process of creating automated tests for Web applications has been around for many years. Vendors such as HP, Parasoft, QFS, and even Microsoft have test software that can be used to create and run automated tests. Over the past couple of years however, we’ve seen an industry-trend towards open source Web testing solutions based on JavaScript. Such solutions have the advantage of being easily modified, free to download, very modular, supported by a vibrant community, and (given the popularity of client-side JavaScript) tests can often be written using the same language as the Web application. 
 
+<span class="more"></span>
+
 For this blog post, I wanted to share some of our observations at Neudesic, and some of the tools that we’ve had success with during recent projects.
 
 **Unit Tests or Assertions?**

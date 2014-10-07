@@ -7,6 +7,8 @@ template: article.jade
 
 No code is perfect, but the nasty types of bugs are the ones that happen randomly and infrequently.  On a couple of recent Android projects we've been experiencing such bugs, and as you can guess they can be difficult to track them down.
 
+<span class="more"></span>
+
 While Android's logcat can help, using the tool often means that you need the device connected through ADB and a USB cable in order to track the events.  While this is useful in development, this doesn't work so well when debugging applications that are running on devices in the field.
 
 Rather than setting up your own logging application or service, it's possible to setup logcat to persistently log to a file on the device or SD card.  To do this, simply open an ADB Shell and run logcat as a background process with the -f option:

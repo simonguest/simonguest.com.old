@@ -5,9 +5,11 @@ date: Tue, 06 Aug 2013 17:43:16 GMT
 template: article.jade
 ---
 
-**Update:  As a few readers have pointed out, the libjingle source has now been merged into the main WebRTC branch (https://code.google.com/p/webrtc/source/browse/trunk/talk). As a result, some of the instructions here will need to be adjusted.  I'm going to leave the post as is, but bear this in mind if you are following each of the steps.  Thanks.**
-
 If you've been following any of the recent developments with WebRTC, you'll know that the majority of samples and example code available today target the Web browser (typically Chrome or Firefox).  While this is useful to get up to speed, IMO one of the most powerful applications of WebRTC will be for mobile devices.  Despite this, getting WebRTC running on mobile can be somewhat challenging.
+
+<span class="more"></span>
+
+**Update:  As a few readers have pointed out, the libjingle source has now been merged into the main WebRTC branch (https://code.google.com/p/webrtc/source/browse/trunk/talk). As a result, some of the instructions here will need to be adjusted.  I'm going to leave the post as is, but bear this in mind if you are following each of the steps.  Thanks.**
 
 While Chrome Beta for Android supports WebRTC, any true mobile client will always need some kind of native application (in order to receive incoming calls in the background).  In this post, I'll be showing how to walk through the minefield of compiling WebRTC for Android in order to build your own demo app that you can expand upon.
 

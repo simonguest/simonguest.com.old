@@ -5,9 +5,9 @@ date: Fri, 05 Jul 2013 17:14:04 GMT
 template: article.jade
 ---
 
-At Neudesic, almost every mobile project that we've been involved in has had some dependency on a Web API.  This has included APIs that we've had to create from scratch, as well as ones that already exist that the app has to consume.
-
 As you can imagine, over the past few years, we've seen a fair share of good and bad API design.  In this blog post, I wanted to share some of my observations, thoughts, and questions that I ask of a well designed Web API, especially one that will be called from a mobile app.
+
+<span class="more"></span>
 
 **1. Are the basics being met?**
 

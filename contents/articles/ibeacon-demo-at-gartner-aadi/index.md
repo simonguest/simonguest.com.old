@@ -7,6 +7,8 @@ template: article.jade
 
 Last week, I joined my colleagues from Neudesic at the Gartner AADI (Application Architecture Development &amp; Integration) Summit in Las Vegas. One of the neat things that we were showing was a demo of iBeacon technology, in order to help locate and pinpoint individuals within indoor environments where GPS is not an option. 
 
+<span class="more"></span>
+
 To achieve this, we placed a selection of iBeacons around the expo floor (for the iBeacons we used RedBear’s BLE Mini boards, flashed with their iBeacon firmware).
 
 ![Red Bear BLE Mini](redbear_blemini.png)

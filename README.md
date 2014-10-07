@@ -7,6 +7,12 @@ simonguest.com
 
     grunt
 
+## Blog Deployment
+
+Create a new folder named "build", perform a git init and set the remote correctly for your github.io account. To deploy, then run:
+
+    grunt deploy
+
 ## License
 
 Copyright 2014 Simon Guest
