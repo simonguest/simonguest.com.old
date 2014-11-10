@@ -24,9 +24,15 @@ module.exports = function (grunt) {
           }
         }
       }
+    },
+    copy: {
+      cname: {
+        src: 'CNAME',
+        dest: 'build/CNAME'
+      }
     }
   });
 
   grunt.registerTask('default', ['npm-install', 'notify:preview', 'shell:preview']);
-  grunt.registerTask('deploy', ['shell:build', 'shell:deploy']);
+  grunt.registerTask('deploy', ['shell:build', 'copy:cname', 'shell:deploy']);
 };
