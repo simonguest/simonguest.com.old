@@ -1,6 +1,6 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "/",
     "name": "simonguest.com",
     "owner": "Simon Guest",
     "description": "The only person allowed to login as 'guest'"
